@@ -192,7 +192,7 @@ const data = [
       <Route path="/cyber" element={<Cyber data={data}/>}/>
       <Route path='/ds' element={<Ds data={data}/>}/>
       <Route path='/career' element={<Career data={data}/>}/>
-      <Route path='*' element={<Pnf data={data}/>}/>
+      <Route path='*' element={<Pnf/>}/>
   </Routes>
     </div>
   );
