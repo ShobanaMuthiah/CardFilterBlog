@@ -16,3 +16,11 @@ a:hover{
   border-bottom-width: 3.1px ;
   width: fit-content !important;
 }
+@media (max-width: 500px){
+  nav{
+    font-size: x-small !important;
+  }
+  a{
+    margin: 2px !important;
+  }
+}
